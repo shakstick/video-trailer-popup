@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Trailer Popup</title>
+        <!-- CSS FILE -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- FONTAWSOME -->
+        <script src="https://kit.fontawesome.com/b5083f9d17.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="./background.jpg" alt="director image">
+            <h1>Movie Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+                debitis omnis id nulla accusantium, explicabo adipisci ratione
+                natus minima fuga vel dolore aliquid corrupti cumque itaque
+                molestiae a excepturi earum architecto. Tempore perferendis est,
+                veritatis</p>
+            <button>Watch now</button>
+            <video class="hidden" src="./movie.mp4" controls type="video/mp4"></video>
+            <div class="overlay hidden"></div>
+            <div class="cross hidden">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!-- JS FILE -->
+        <script controls src="./index.js"></script>
+    </body>
+</html>
